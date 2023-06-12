@@ -29,9 +29,12 @@ main {
     justify-content: space-around;
     margin: 5vh 0;
 }
+main section{
+    margin: 2.4rem 2rem;
+    width: 24rem;
+}
 
 .batman {
-    width: 24rem;
     background-color: #F3F3F3;
     border-radius: 1.5rem 1.5rem 0 0;
     display: flex;
@@ -43,7 +46,7 @@ main {
     position: relative;
     background-image: url(../img/batmanBG.png);
     background-size: cover;
-    height: 18.5rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     border-radius: 1.5rem 1.5rem 0 0;
@@ -51,20 +54,20 @@ main {
 
 .bg-batman img {
     position: absolute;
-    width: 10.1rem;
-    height: 10.1rem;
-    top: 13.5rem;
+    width: 10rem;
+    height: 10rem;
+    top: 9.8rem;
 }
 
 .batman h2 {
     text-align: center;
     font-size: 3rem;
     font-weight: 400;
-    padding-top: 6.5rem;
+    padding-top: 5rem;
 }
 
 .info {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     margin: 2.25rem;
 }
@@ -89,7 +92,6 @@ main {
 
 
 .best-woman {
-    width: 24rem;
     background-color: #F3F3F3;
     border-radius: 1.5rem 1.5rem 0 0;
     display: flex;
@@ -101,30 +103,29 @@ main {
     position: relative;
     background-image: url(../img/maravillaBG.png);
     background-size: cover;
-    height: 18.5rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 .bg-maravilla img {
     position: absolute;
-    width: 10.1rem;
-    height: 10.1rem;
-    top: 13.5rem;
+    width: 10rem;
+    height: 10rem;
+    top: 9.8rem;
 }
 
 .best-woman h2 {
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 400;
-    padding-top: 6.5rem;
+    padding-top: 5rem;
 }
 
 
 
 
 .superman {
-    width: 24rem;
     background-color: #F3F3F3;
     border-radius: 1.5rem 1.5rem 0 0;
     display: flex;
@@ -135,30 +136,29 @@ main {
     position: relative;
     background-image: url(../img/supermanBG.png);
     background-size: cover;
-    height: 18.5rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 .bg-superman img {
     position: absolute;
-    width: 10.1rem;
-    height: 10.1rem;
-    top: 13.5rem;
+    width: 10rem;
+    height: 10rem;
+    top: 9.8rem;
 }
 
 .superman h2 {
     text-align: center;
     font-size: 3rem;
     font-weight: 400;
-    padding-top: 6.5rem;
+    padding-top: 5rem;
 }
 
 
 
 
 .harley {
-    width: 24rem;
     background-color: #F3F3F3;
     border-radius: 1.5rem 1.5rem 0 0;
     display: flex;
@@ -170,23 +170,23 @@ main {
     position: relative;
     background-image: url(../img/harleyBG.png);
     background-size: cover;
-    height: 18.5rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 .bg-harley img {
     position: absolute;
-    width: 10.1rem;
-    height: 10.1rem;
-    top: 13.5rem;
+    width: 10rem;
+    height: 10rem;
+    top: 9.8rem;
 }
 
 .harley h2 {
     text-align: center;
     font-size: 2.8rem;
     font-weight: 400;
-    padding-top: 6.5rem;
+    padding-top: 5rem;
 }
 
 
@@ -209,3 +209,47 @@ footer img {
 }
 
 
+@media screen and (max-width: 1400px) {
+
+    main section {
+        margin: 2.4rem 0rem;
+    }    
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    main section {
+        margin: 2.4rem 2rem;
+        width: 30rem;
+    }    
+
+    .ver-mas p {
+        background-color: #00669F;
+        padding: 1.3rem 2.3rem ;
+        margin-bottom: 2.5rem;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 1.9vw;
+    }
+    footer img {
+        right: 5vw;
+        width: 13.4vw;
+        height: 3.7vw;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    main section {
+        width: 25rem;
+    }
+    .harley {
+        display: none;
+    }
+    
+}
